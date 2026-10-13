@@ -9,5 +9,4 @@ def my_function(input_str):
 
 
 test_string = "hello world, hello world, hello world"
-# print(my_function(test_string))
-my_function(test_string)
+print(my_function(test_string))
