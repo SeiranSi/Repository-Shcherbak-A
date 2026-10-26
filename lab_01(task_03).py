@@ -38,6 +38,5 @@ for task, status in tasks.items():
     if status == "очікує":
         waiting_tasks.append(task)
 
-
 print("Задачі, які очікують виконання:")
 print(waiting_tasks)
