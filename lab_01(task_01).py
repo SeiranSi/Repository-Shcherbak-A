@@ -7,6 +7,9 @@ def my_function(input_str):
             words_dict[word] += 1
     return words_dict
 
-
 test_string = "hello world, hello world, hello world"
+print('The string:',test_string)
 print(my_function(test_string))
+
+
+
