@@ -24,12 +24,11 @@ def update_status(task_name, status):
         tasks[task_name] = status
 
 print_tasks()
-# Тестування роботи
+
 add_task("gardening", "очікує")
 del_task("coaching")
 update_status("working", "очікує")
 
-# Вивід усіх задач
 print("\t\tAfter a change")
 print_tasks()
 
