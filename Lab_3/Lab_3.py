@@ -72,8 +72,3 @@ if __name__ == "__main__":
 
 user1 = User("Alexey", "1234567890")
 user2 = User("Sonya", "qwertyuiop[]")
-
-
-
-
-
