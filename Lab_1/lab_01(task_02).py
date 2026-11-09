@@ -2,6 +2,7 @@ inventory = {
     "Яблука": 10,
     "Банани": 15
 }
+
 def update_inventory(product, amount):
     if product in inventory:
         inventory[product] += amount
