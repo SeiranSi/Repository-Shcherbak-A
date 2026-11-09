@@ -22,5 +22,5 @@ def generate_file_hashes(*file_paths):
     return hashes_dict
 
 #example
-result = generate_file_hashes("apache_logs.txt", "new_file.txt", "not_found_file.txt", "not_file")
+result = generate_file_hashes("../Lab_1/apache_logs.txt", "new_file.txt", "not_found_file.txt", "not_file")
 print(result)

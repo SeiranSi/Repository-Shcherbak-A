@@ -1,5 +1,5 @@
 try:
-    my_file = open('apache_logs.txt', "r")
+    my_file = open('../Lab_1/apache_logs.txt', "r")
 except FileNotFoundError:
     print("apache_logs.txt not found")
 except IOError:
