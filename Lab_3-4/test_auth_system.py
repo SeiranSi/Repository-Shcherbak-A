@@ -1,5 +1,4 @@
 from auth_system import User, Administrator, RegularUser, Guest, AccessControl
-
 # =========USER METHODS ===============
 
 def test_verify_username_successful():
